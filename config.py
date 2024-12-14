@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = API_ID
-API_HASH = "API_HASH"
+API_ID = 24205899
+API_HASH = "147f87ae6dcd2c33adc2e9b9900bb21c"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = "7662324935:AAEW4Q9xquy8-MuF3qqBjMCGoYdGHDelxvg"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "MONGO_DB_URI"
+MONGO_DB_URI = "mongodb+srv://nand:nand@nand.3ms6g.mongodb.net/?retryWrites=true&w=majority&appName=nand"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = -1002251067525
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = OWNER_ID
+OWNER_ID = 1786683163
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "STRING_SESSION"
+STRING1 = "BQFxWksAvAtY8yNLns2wqnVawcYgSLZodlJuxMBrpFvG62Q9_RV3ZasInMtxutbAGbTjd0W4DYrBItkpnFGTiOsRamnI9lAB5J3CoXWpJf9r1IpmYSrAnSFazy86j8tzpjO1BQPBT9NMdj2zOEEKtf4rw-1F_VzsTxq295sAn1WXstHl_w0ieb5T6fBkrKCp32Iy4sg4z4Y_4J4JQnMhGuYpNdo0JHoTMCzpiW9gp9_cxt_vn2jJPqHHTmI8iguVGE_1A4Sqy3g5FFyUWKnJMBnpU9zcWngdlGx5LF5kd1xwU1pq7ZIPOSQkiE93SLgMGIdnSWwkZsEAxzTKpv_X0iLnVH218wAAAAGrKLcUAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
